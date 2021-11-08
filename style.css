@@ -1,0 +1,41 @@
+body{
+    background-color: gray;
+} 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header{background-color: orangered; height: 50px;}
+.column{background-color: white;float: left; width: 150px;}
+#main{background-color: gray; margin:0 0;}
+
+.menu {width: 25%;}
+.content {width: 75%;}
+
+
+.top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top li {
+  float: left;
+}
+
+.top li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top li a:hover {
+  background-color: #FF4500;
+}
+
